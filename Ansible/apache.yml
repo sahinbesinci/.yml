@@ -1,0 +1,6 @@
+- hosts: client
+  tasks:
+    - name: Apache yukleme
+      apt:
+         name: apache2
+         state: latest
